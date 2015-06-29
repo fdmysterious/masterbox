@@ -1,0 +1,9 @@
+/***************
+ *-=style.css=-*
+ ***************
+
+ Description : Mise en page globale de la page.
+*/
+
+@import url("main.css");
+@import url("board.css");

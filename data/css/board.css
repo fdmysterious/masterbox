@@ -1,0 +1,109 @@
+#main-wrapper
+{
+	/* Définition de la position */
+	position: fixed;
+	top: 15%;
+	bottom: 10%;
+	left: 5%;
+	right: 5%;
+	
+	/* définition des propriétés flexbox*/ 
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#lrow
+{
+	/* définition des propriétés flexbox*/ 
+	display: flex;
+	flex-direction:column;
+
+	justify-content: center;
+	/*flex-grow:1;*/
+}
+
+#game
+{
+	/* paramètres de l'affichage */
+	margin: 1%;
+	padding: 0;
+	
+	/* définition des propriétés flexbox*/ 
+	flex-grow: 3;
+}
+
+#game canvas
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#game .overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	z-index: 10;
+
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#game .overlay div
+{
+	width: 50%;
+	height: 30%;
+	text-align: center;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#game .overlay .title
+{
+	font-size: 32pt;
+}
+
+#win_overlay .title
+{
+	color: green;
+}
+
+#loose_overlay .title
+{
+	color: red;
+}
+
+#lrow .children
+{
+	/* paramètres de l'affichage */
+	border: 5px solid #6e8ce6;	
+	background-color: #f7f5ff;
+	margin: 2%;
+	text-align:center;
+	
+	/* définition des propriétés flexbox*/
+	flex-grow:1;
+
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#lrow .children h2
+{
+	font-size: 15pt;
+	color: #ffcc00;
+
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;  
+}

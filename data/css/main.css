@@ -1,0 +1,106 @@
+@import url("fonts.css");
+
+/*-=Mise en page globale=-*/
+body
+{
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	background-color: #afc6e9;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+/*-=Fin de la section=-*/
+
+/*-=Header=-*/
+header
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 10%;
+
+	border-bottom: 5px solid black;
+
+	text-align: center;
+
+	background-color: #1a1a1a;
+	color: white;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+header img
+{
+	margin: 10px;
+}
+/*-=Fin de la section=-*/
+
+/*-=Footer=-*/
+footer
+{
+	font-size:12px;
+
+	position: fixed;
+	left: 0;
+	right: 0;
+
+	height: 5%;
+	bottom: 0;
+
+	text-align: center;
+
+	border-top: 5px solid black;
+	background-color: #1a1a1a;
+	border-bottom: 2px solid black;
+
+	/*-=Police de caractère=-*/
+	color: white;
+	padding: 5px;
+	/*-=Fin de la section=-*/
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+/*-=Fin de la section=-*/
+
+/*-=Bouton=-*/
+button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 6px;
+  background: #3498db;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+
+  margin: 5px;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+button:disabled
+{
+	background: grey;
+}
+/*-=Fin de la section=-*/

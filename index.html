@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>ISN Master box 2015</title>
+		<link rel="stylesheet" type="text/css" href="data/css/style.css">
+
+		<script src="data/js/lib/jquery.js"></script>
+		<script data-main="data/js/main" src="data/js/lib/require.js"></script>
+	</head>
+
+	<html>
+		<header>
+			<img alt="Master Box" src="img/logo.png"/>	
+		</header>
+
+		<section id="main-wrapper">
+			<div id="lrow">
+				<div class="children" id="scoreboard">
+					<h2>Affichage du score</h2>
+
+					<div id="score_display">
+						0
+					</div>
+				</div>
+
+				<div class="children" id="goal">
+					<h2>Affichage de l'objectif</h2>
+
+					<div id="goal_display">
+					</div>
+				</div>
+
+				<div class="children" id="controls">
+					<h2>Affichage des contrôles</h2>
+				</div>
+			</div>
+
+			<section id="game">
+				<div class="overlay" id="loose_overlay">
+					<div>
+						<h2 class="title">Perdu</h2>
+						<button onclick="javascript:dirtyRestart();">Rejouer</button>
+					</div>
+				</div>
+
+				<div class="overlay" id="win_overlay">
+					<div>
+						<h2 class="title">Gagne</h2>
+						<button onclick="javascript:dirtyRestart();">Rejouer</button>
+					</div>
+				</div>
+			</section>
+
+		</section>
+
+		<footer>
+			<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">MasterBox</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">HipstaGram</span> est mis à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">licence Creative Commons Attribution 4.0 International</a>.
+			</footer>
+		</html>
+</html>
