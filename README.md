@@ -9,3 +9,7 @@ which is about learning to code some little programs, this year in javascript.
 
 But we were already knowing how to program in javascript, so we wanted to go a little further.
 So began this project.
+
+==========
+
+Here for archival purposes. But the game's actually broken'n'shit :'(
